@@ -1,0 +1,96 @@
+h1 {
+	background-color: #cccccc;
+	text-align: center;
+	border: 5px dashed #EE7305;
+	/*margin: auto;*/
+/*	color: blue;
+*/	/* opacity: .75; */
+		
+}
+
+header.transbox { 
+	opacity: 0.85;
+	filter: alpha(opacity=60);
+} 
+
+header.transbox h1{ 
+	font-weight: bold;
+	color: blue;
+
+} 
+
+
+#headerP {
+	/*background-color: #E6C406;*/
+	background-color: #cccccc;
+	text-align: center;
+	border: 5px dashed #EE7305;
+	opacity: 0.85;
+	font-weight: bold;
+	color: blue;
+}
+
+h2 , #result {
+	/*background-color: #2AE106;*/
+	background-color: #cccccc;
+	text-align: center;
+	border: 5px dashed #EE7305;
+	opacity: 0.85;
+	font-weight: bold;
+	color: blue;
+}
+
+
+body {
+	/*background-color: #1A31E4;*/
+	background-image: url("http://images6.fanpop.com/image/photos/37300000/Breaking-Bad-breaking-bad-37307233-500-281.jpg");
+	/*background-repeat: no-repeat;*/
+	background-position: center;
+	/*width: 1000px;
+	height: 500px;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.crystals{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.crystal{
+	border:1px solid green;
+	height:200px;
+	width: 200px;
+	border-radius: 4px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+	transition: box-shadow 1s, transform 2s;
+}
+
+.crystal:hover{
+	box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+	transform: translate(5px,80px);
+	cursor: pointer;
+	transition: box-shadow 1s, transform 2s;
+
+
+}
+
+img{
+	width:50px;
+}
