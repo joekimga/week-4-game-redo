@@ -1,4 +1,4 @@
-alert("Collect the Crystals before Jesse pinkman smokes them all!");
+alert("Collect the Crystals before Jesse Pinkman smokes them all!");
 
 
 var random_result;
