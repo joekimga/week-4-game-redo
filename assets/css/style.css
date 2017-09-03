@@ -1,3 +1,8 @@
+audio { 
+   display: none;
+}
+
+
 h1 {
 	background-color: #cccccc;
 	text-align: center;
@@ -52,21 +57,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .crystals{
 	display: flex;
 	justify-content: space-around;
@@ -93,4 +83,12 @@ body {
 
 img{
 	width:50px;
+}
+
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
 }
